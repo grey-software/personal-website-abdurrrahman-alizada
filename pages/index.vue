@@ -1,11 +1,24 @@
 <template>
-  <Hero/>
+  <div>
+
+   <Hero />
+    
+
+  </div>
 </template>
 
 <script>
-export default {}
+import Hero from '@/pages/Hero'
+import Navbar from '@/pages/Navbar'
+export default {
+  components : {
+    Navbar,
+    Hero,
+  
+  }
+}
 </script>
 
-<style>
+<style scoped>
 
 </style>
