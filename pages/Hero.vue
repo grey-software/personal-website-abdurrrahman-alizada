@@ -10,14 +10,14 @@
       <p class="mb-8 leading-relaxed">Currently I'm student of Computer Software Engineering, Completing my bechlor degree.I have experience in Web development and App development.After graduation i want to enter in industry as a Full-stack software engineer with good leadership qualities.</p>
     
       <div class="flex mt-4">
-      <button class="text-white bg-purple-900 border-0 py-2 px-4 focus:outline-none hover:bg-purple-900 py-2 px-4 rounded inline-flex items-center">
+      <a href="require('@/static/resume.pdf')" download="resume.pdf" class="text-white bg-purple-900 border-0 py-2 px-4 focus:outline-none hover:bg-purple-900 py-2 px-4 rounded inline-flex items-center">
         <span>Download CV</span>
         <svg class="w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
         </svg>
-      </button>
+      </a>
 
-        <button class="ml-4 inline-flex text-white bg-yellow-500 text-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-800 rounded text-lg">Contact me</button>
+        <nuxt-link to="/Contact" class="ml-4 inline-flex text-white bg-yellow-500 text-gray-900 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-800 rounded text-lg">Contact me</nuxt-link>
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full mt-5 md:w-1/2 w-5/6">
@@ -29,6 +29,18 @@
 </section>
     </div>
 </template>
+
+
+<script>
+export default{
+  data(){
+    return{
+      resume : '@/static/resume.pdf'
+    }
+  }
+}
+</script>
+
 
 <style scoped>
 .hero{
