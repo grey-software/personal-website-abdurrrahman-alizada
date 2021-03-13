@@ -10,16 +10,16 @@
 
   <div class="xl:mx-20">
     <ul class="flex flex-wrap p-5 ">
-      <li class="m-10 hover:bg-purple-900 rounded-3xl">
+      <li class="lg:m-10 sm:m-5 hover:bg-purple-900 rounded-3xl">
         <a href="https://github.com/Abdurrahman-Alizada"><img class="h-10 w-10 hover:text-purple-700" src="@/assets/svgs/g.svg"/></a>
       </li>
-        <li class="m-10 hover:bg-blue-600 rounded-3xl">
+        <li class="lg:m-10 sm:mt-5 hover:bg-blue-600 rounded-3xl">
         <a href="https://twitter.com/Abdurra40479012"><img class="h-10 w-10" src="@/assets/svgs/t.svg"/></a>
       </li>
-            <li class="m-10 hover:bg-blue-500 rounded-2xl">
+            <li class="lg:m-10 sm:mt-2 hover:bg-blue-500 rounded-2xl">
         <a href="https://www.linkedin.com/in/abdur-rahman-316b55203/"><img class="h-10 w-10" src="@/assets/svgs/l.svg"/></a>
       </li>
-            <li class="m-10 hover:bg-blue-700 rounded-2xl">
+            <li class="lg:m-10 sm:mt-2 hover:bg-blue-700 rounded-2xl">
         <a href="https://web.facebook.com/abdurrahman.suddais.1/"><img class="h-10 w-10" src="@/assets/svgs/f.svg"/></a>
       </li>
             <!-- <li class="m-10 hover:bg-purple-800 rounded-xl">
