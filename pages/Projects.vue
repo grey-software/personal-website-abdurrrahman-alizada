@@ -4,38 +4,21 @@
          <h1 class="font-bold heading text-4xl font-black flex items-center justify-center">Projects I did!</h1>
          <div class="container px-5 mx-auto">
     <div class="flex flex-wrap">
-<div class="container mx-auto px-4 md:px-12">
-    <div class="flex flex-wrap -mx-1 lg:-mx-4">
+<div class="container flex mx-auto px-4 md:px-12">
+<div class="flex">
+ <img class="" src="@/assets/svgs/github.svg"/>
+  </div> 
+   <span class="font-bold mt-10 p-10 self-center">
+         <h4 class="font-bold text-xl font-black items-center justify-center self-center">I made some projects. Although I did'nt work on some Great project yet, But I'm looking forward to it.</h4>
+ See my 
+   <a href="" class="title-font flex items-center sm:text-4xl text-3xl font-medium">
+  GitHub
+   <svg class="h-10 w-10 animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+   </a>
+ </span>
 
-        <!-- Column -->
-        <div  v-for="project in projects" :key='title' class="my-1 flex px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 min-h-full">
-
-            <!-- Article -->
-            <article class="overflow-hidden rounded-lg shadow-2xl">
-                    <img alt="Placeholder" class="block h-auto w-full" :src='project.avatar'>
-                <header class="items-center justify-between leading-tight p-2 md:p-4">
-                    <h1 class="text-xl">
-                      {{project.title}}
-                    </h1>
-                  <p class="p-2">{{project.desc}}</p>
-                </header>
-
-                <footer class="flex items-center justify-between leading-none p-2 md:p-4">
-                <div class="p-2 w-full">
-                <a :href='project.link' class="flex m-auto text-white bg-gray-700 border-0 py-2 px-20 focus:outline-none hover:bg-gray-900 rounded text-lg">See on GitHub</a>
-              </div>
-                </footer>
-
-            </article>
-            <!-- END Article -->
-
-        </div>
-        <!-- END Column -->
-     
-     
-
-
-    </div>
 </div>
 
     </div>
