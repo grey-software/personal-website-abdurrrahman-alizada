@@ -11,7 +11,7 @@
    <span class="font-bold mt-10 p-10 self-center">
          <h4 class="font-bold text-xl font-black items-center justify-center self-center">I made some projects. Although I did'nt work on some Great project yet, But I'm looking forward to it.</h4>
  See my 
-   <a href="" class="title-font flex items-center sm:text-4xl text-3xl font-medium">
+   <a href="https://github.com/Abdurrahman-Alizada" class="title-font flex items-center sm:text-4xl text-3xl font-medium">
   GitHub
    <svg class="h-10 w-10 animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z" />
