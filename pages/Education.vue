@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <section class="text-gray-600 h-screen body-font mt-5">
+
+        <section class="text-gray-600 lg:h-screen mb-20 body-font mt-5">
          <h1 class="font-bold heading text-4xl font-black flex items-center justify-center">My Education Journey</h1>
        <div class="flex">
          <img src="@/assets/svgs/4.svg" class="w-1/3 animate-pulse"/>
@@ -56,23 +56,5 @@
   </div>
   </div>
 </section>
-    </div>
 </template>
 
-
-<style scoped>
- .heading{
-       font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  color: #35495e;
-  letter-spacing: 1px;
- }
-</style>

@@ -1,12 +1,12 @@
 <template>
-    <div>
-        <section class="h-screen text-gray-600 body-font">
-  <div class="container px-5 py-24 ml-auto">
+    
+        <section class="text-gray-600 body-font">
+  <div class="container px-5 py-20   ml-auto">
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl heading text-2xl font-bold text-center title-font text-gray-900 mb-4">I'm Expert in Following Technologies</h1>
     </div>
     <div class="flex">
-   <img class="w-1/3 -p-5" src="@/assets/svgs/ex.svg"/>
+   <img class="w-1/2 -p-5" src="@/assets/svgs/ex.svg"/>
     <div class="flex flex-wrap m-5 lg:w-4/5 sm:mx-auto sm:mb-2">
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
@@ -66,7 +66,7 @@
     </div>
   </div>
 </section>
-    </div>
+    
 </template>
 
 
@@ -83,18 +83,4 @@ export default {
 
 
 <style scoped>
- .heading{
-       font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  color: #35495e;
-  letter-spacing: 1px;
- }
 </style>

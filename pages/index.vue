@@ -18,6 +18,19 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style>
+.heading{
+       font-family:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  color: #35495e;
+  letter-spacing: 1px;
+ }
 </style>
