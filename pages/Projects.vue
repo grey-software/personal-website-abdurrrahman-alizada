@@ -9,7 +9,7 @@
  <img class="" src="@/assets/svgs/github.svg"/>
   </div> 
    <span class="font-bold mt-10 p-10 self-center">
-         <h4 class="font-bold text-xl font-black items-center justify-center self-center">I made some projects. Although I did'nt work on some Great project yet, But I'm looking forward to it.</h4>
+         <h4 class="font-bold text-xl font-black items-center justify-center self-center">I made some projects. Although I didn't work on some Great projects yet, I'm looking forward to it.</h4>
  See my 
    <a href="https://github.com/Abdurrahman-Alizada" class="title-font flex items-center sm:text-4xl text-3xl font-medium">
   GitHub

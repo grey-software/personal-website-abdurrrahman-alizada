@@ -3,7 +3,7 @@
         <section class="text-gray-600 body-font">
   <div class="container px-5 py-20   ml-auto">
     <div class="text-center mb-20">
-      <h1 class="sm:text-3xl heading text-2xl font-bold text-center title-font text-gray-900 mb-4">I'm Expert in Following Technologies</h1>
+      <h1 class="sm:text-3xl heading text-2xl font-bold text-center title-font text-gray-900 mb-4">I'm an Expert in Following Technologies</h1>
     </div>
     <div class="flex">
    <img class="w-1/2 -p-5" src="@/assets/svgs/ex.svg"/>

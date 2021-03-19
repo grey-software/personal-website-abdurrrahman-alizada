@@ -6,8 +6,8 @@
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium">Assalam-O-Alaikum
         <br class="hidden lg:inline-block">I'm Abdur Rahman Alizada.
       </h1>
-      <h4 class="title-font sm:text-2xl text-2xl mb-2 font-medium">Software Engineer in day and Free-source developer on night.I love to work with open-source providers community.</h4>
-      <p class="mb-8 leading-relaxed">Currently I'm student of Computer Software Engineering, Completing my bachleor's degree.I have experience in Web development and App development.After graduation i want to enter in industry as a Full-stack software engineer with good leadership qualities.</p>
+      <h4 class="title-font sm:text-2xl text-2xl mb-2 font-medium">Software Engineer in the day and Free-source developer at night. I love to work with the open-source community.</h4>
+      <p class="mb-8 leading-relaxed">Currently, I'm a student of Computer Software Engineering, Completing my bachelor's degree. I have experience in Web development and App development. After graduation, I want to enter in the software industry as a Full-stack software engineer with good leadership qualities.</p>
     
       <div class="flex mt-4 bg-purple-100">
       <a href="https://drive.google.com/file/d/10d7QLbAIwxLLAg5M73agvlmPbjVW8RUe/view?usp=sharing" download="resume.pdf" class="text-white bg-purple-900 border-0 py-2 px-4 focus:outline-none hover:bg-purple-900 py-2 px-4 rounded inline-flex items-center">
