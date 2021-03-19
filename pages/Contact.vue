@@ -1,6 +1,6 @@
 <template>
         <section class="container  text-gray-600 body-font">
-  <div class="px-5 py-15 mx-auto flex">
+  <div class=" lg:py-24 mx-auto flex">
   <div class="md:w-0/2 w-3/6">
    <img class="h-30 w-full mt-10 object-cover object-center" src="@/assets/svgs/contact.svg"/>
   </div>  
