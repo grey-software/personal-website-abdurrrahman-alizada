@@ -1,41 +1,39 @@
 <template>
-    <div>
-        <section class="text-gray-600 body-font mt-5">
-          <h1 class="font-bold heading text-4xl font-black flex items-center justify-center">My Projects</h1>
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap">
+        <section class="container  text-gray-600 body-font">
+  <div class="px-5 py-24 mx-auto flex">
+  <div class="md:w-0/2 w-5/6">
+   <img class="h-30 w-1/1 object-cover object-center" src="@/assets/svgs/contact.svg"/>
+  </div>  
 
-      <div class="xl:w-1/3 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60 bg-purple-300 hover:text-white text-black hover:bg-purple-800">
-        <h2 class="text-lg sm:text-xl font-medium title-font mb-2">Melanchole</h2>
-        <p class="leading-relaxed text-base mb-4">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
-        <a class="text-purple-500 inline-flex items-center">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-
+  <div class="container  px-5 py-24 mx-auto">
+    <div class="flex items-center mx-auto flex-col text-center w-full mb-12">
+      <h1 class="sm:text-3xl heading text-2xl font-bold title-font mb-4 text-gray-900">Contact Me</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-black">You can contact me via InstaGram or E-mail (abdurrahmanalizada17@gmail.com). Feel free to check out my social media presence below to get to know me better.</p>
     </div>
-    <button class="flex mx-auto mt-16 text-white bg-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-purple-600 rounded text-lg">Button</button>
+
+  <div class="xl:mx-20">
+    <ul class="flex flex-wrap sm:-p-5 ">
+      <li class="m-10 hover:bg-purple-900 rounded-3xl">
+        <a href="https://github.com/Abdurrahman-Alizada"><img class="h-10 w-10 hover:text-purple-700" src="@/assets/svgs/g.svg"/></a>
+      </li>
+        <li class="m-10 hover:bg-blue-600 rounded-3xl">
+        <a href="https://twitter.com/Abdurra40479012"><img class="h-10 w-10" src="@/assets/svgs/t.svg"/></a>
+      </li>
+            <li class="m-10 hover:bg-blue-500 rounded-2xl">
+        <a href="https://www.linkedin.com/in/abdur-rahman-316b55203/"><img class="h-10 w-10" src="@/assets/svgs/l.svg"/></a>
+      </li>
+            <li class="m-10 hover:bg-blue-700 rounded-2xl">
+        <a href="https://web.facebook.com/abdurrahman.suddais.1/"><img class="h-10 w-10" src="@/assets/svgs/f.svg"/></a>
+      </li>
+            <li class="m-10 hover:bg-yellow-500 rounded-full">
+        <a href="mailto:abdurrahmanalizada17@gmail.com"><img class="h-10 w-10" src="@/assets/svgs/gmail.svg"/></a>
+      </li>
+
+
+    </ul>
+  </div>
+  </div>
   </div>
 </section>
-    </div>
 </template>
 
-
-<style scoped>
- .heading{
-       font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  color: #35495e;
-  letter-spacing: 3px;
- }
-</style>
