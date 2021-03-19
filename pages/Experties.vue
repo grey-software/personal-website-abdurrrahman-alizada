@@ -1,12 +1,12 @@
 <template>
     
         <section class="text-gray-600 body-font">
-  <div class="container px-5 py-20   ml-auto">
+  <div class="container px-5 py-20  ml-auto">
     <div class="text-center mb-20">
       <h1 class="sm:text-3xl heading text-2xl font-bold text-center title-font text-gray-900 mb-4">I'm an Expert in Following Technologies</h1>
     </div>
-    <div class="flex">
-   <img class="w-1/2 -p-5" src="@/assets/svgs/ex.svg"/>
+    <div class="flex ">
+   <img class="w-1/2 hidden md:block -p-5" src="@/assets/svgs/ex.svg"/>
     <div class="flex flex-wrap m-5 lg:w-4/5 sm:mx-auto sm:mb-2">
       <div class="p-2 sm:w-1/2 w-full">
         <div class="bg-gray-100 rounded flex p-4 h-full items-center">
